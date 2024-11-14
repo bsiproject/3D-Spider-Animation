@@ -1,0 +1,37 @@
+/* style.css */
+body {
+    margin: 0;
+    background-color: #121212; /* Warna background gelap */
+    color: #e0e0e0; /* Warna teks terang */
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+#spider-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.content {
+    font-size: 2em;
+    padding: 50px;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+    z-index: 1;
+    position: relative;
+}
+
+h1, p {
+    margin: 0;
+    padding: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
